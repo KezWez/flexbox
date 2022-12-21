@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    height: 200px;
+    width: 30%;
+    border: 2px solid green;
+    margin-bottom: 24px;
+}
+.box-wrapped {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 24px 24px 24px 24px;
+    border: 2px solid red;
+}
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.title {
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 24px;
+}
